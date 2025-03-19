@@ -36,10 +36,16 @@ class Empleado:
         self.nombre, self.identificacion, self.sueldo = nombre, identificacion, sueldo
 
     def mostrar_informacion(self):
+        """
+        Imprime la información del empleado
+        """
         print(f'''
         Nombre: {self.nombre}
         Identificacion: {self.identificacion}
         Sueldo: {self.sueldo}''')
 
     def calcular_sueldo_final(self):
+        """
+        Calcula el sueldo final ( no )
+        """
         return self.sueldo
